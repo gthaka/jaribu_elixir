@@ -13,4 +13,4 @@ defmodule FizzBuzz do
   end
 end
 
-IO.puts(FizzBuzz.run(100))
+100 |> FizzBuzz.run() |> IO.puts()
